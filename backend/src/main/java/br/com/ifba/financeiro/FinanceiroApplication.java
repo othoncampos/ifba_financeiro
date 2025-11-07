@@ -1,4 +1,4 @@
-package br.edu.ifba.financeiro;
+package br.com.ifba.financeiro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

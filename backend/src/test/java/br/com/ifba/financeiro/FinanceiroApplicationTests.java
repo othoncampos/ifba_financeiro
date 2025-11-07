@@ -1,4 +1,4 @@
-package br.edu.ifba.financeiro;
+package br.com.ifba.financeiro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
