@@ -1,0 +1,107 @@
+# ======================================
+# 📦 GITIGNORE — Sistema Financeiro IFBA
+# ======================================
+
+# -------------------------
+# 🔹 Node / Vue 3 (Frontend)
+# -------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.temp/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
+frontend/.DS_Store
+
+# IDE configs (VSCode, WebStorm)
+frontend/.vscode/
+frontend/.idea/
+
+# -------------------------
+# 🔹 Java / Spring Boot (Backend)
+# -------------------------
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/.vscode/
+backend/.factorypath
+
+# Maven Wrapper (somente o jar pode ser ignorado, não os scripts)
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos de build temporários
+backend/logs/
+backend/tmp/
+backend/*.log
+backend/*.tmp
+backend/.DS_Store
+
+# Configurações locais e credenciais
+backend/src/main/resources/application-local.yaml
+backend/src/main/resources/application-dev.yaml
+backend/src/main/resources/application-prod.yaml
+backend/.env
+backend/*.iml
+
+# -------------------------
+# 🔹 Banco de Dados / Docker
+# -------------------------
+pgdata/
+docker-data/
+*.db
+*.sqlite
+*.sql
+*.dump
+
+# -------------------------
+# 🔹 Sistema Operacional
+# -------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# -------------------------
+# 🔹 Logs e temporários
+# -------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.cache
+*.pid
+
+# -------------------------
+# 🔹 Testes / Cobertura
+# -------------------------
+coverage/
+*.lcov
+test-output/
+target/surefire-reports/
+
+# -------------------------
+# 🔹 IDEs e ferramentas
+# -------------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# -------------------------
+# 🔹 Ambiente geral
+# -------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
