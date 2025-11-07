@@ -42,6 +42,9 @@ backend/tmp/
 backend/*.log
 backend/*.tmp
 backend/.DS_Store
+backend/*.class
+/target/
+*.class
 
 # Configurações locais e credenciais
 backend/src/main/resources/application-local.yaml
