@@ -69,6 +69,7 @@ public class UsuarioController {
 
 	@PostMapping("/login")
     public ResponseEntity<UsuarioDTO> login(@RequestBody LoginRequestDTO loginRequestDTO) {
+		System.out.println("Login attempt for: " + loginRequestDTO.getLogin());
         Optional<UsuarioModel> usuario = usuRepository.findByCpf(loginRequestDTO.getLogin());
 
 		boolean isAuthorized = usuario.isPresent() && usuario.get().getSenha().equals(loginRequestDTO.getSenha());
